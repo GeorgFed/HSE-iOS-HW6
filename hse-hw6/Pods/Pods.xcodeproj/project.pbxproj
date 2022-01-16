@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40635D3A01DCC63FB0D3BB6760F2CF0D /* MyLogger3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF7DC908792183D0B005C3129BD2629 /* MyLogger3-dummy.m */; };
+		4BC924C9F352881A9845000C8798CD60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4D73BCE5F423BD58FB5AF06D8F5DC5DC /* MyLogger3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC798472CDFE3647DF51E014DBF8953D /* MyLogger3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61F4F827366AF3C8D220DE24E58EDB72 /* MyLogger3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D33C8FE42F140FF5406C2C29910F39E /* MyLogger3.swift */; };
+		8AE07EEF7E2112E0241B3BA9FC8E16F7 /* Pods-hse-hw6-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0AE64688B72BCA9020AA44484FC2D3 /* Pods-hse-hw6-dummy.m */; };
+		E10DE1435676971B41741F28B0AE96C1 /* Pods-hse-hw6-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBD175186394857DEABCEDCDFB80D2D /* Pods-hse-hw6-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4263CD13368C08A6146D78DA904610D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1977353595C338591331009C5660FCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB313BD8DFD57FE29F3E1BCE91BDCBC9;
+			remoteInfo = MyLogger3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D33C8FE42F140FF5406C2C29910F39E /* MyLogger3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyLogger3.swift; path = MyLogger3/Classes/MyLogger3.swift; sourceTree = "<group>"; };
+		0FF7DC908792183D0B005C3129BD2629 /* MyLogger3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyLogger3-dummy.m"; sourceTree = "<group>"; };
+		21273733FDA87D66F86E386F904D8E94 /* Pods-hse-hw6.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-hse-hw6.modulemap"; sourceTree = "<group>"; };
+		5AC22C6DD5E6A160223977D737D035F9 /* Pods-hse-hw6-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hse-hw6-acknowledgements.plist"; sourceTree = "<group>"; };
+		5C92BD54D21ED8BF1D0C89ADAC178D34 /* Pods-hse-hw6-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-hse-hw6-frameworks.sh"; sourceTree = "<group>"; };
+		5F2124BC3E5078C4DDDCF12CDFA1842A /* MyLogger3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyLogger3.debug.xcconfig; sourceTree = "<group>"; };
+		634EED9DFF5F7193D30BB0B04D57BE34 /* MyLogger3 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MyLogger3; path = MyLogger3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		654666C0D1352044D939E68DFFD6642A /* Pods-hse-hw6 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-hse-hw6"; path = Pods_hse_hw6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA19E55B34930D507A26CDA33175C50 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		705F72DD9DB7CC2DD84B52093A91D114 /* Pods-hse-hw6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hse-hw6.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7BF10890E6EC3F4E716BC1870D8007B2 /* Pods-hse-hw6-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hse-hw6-Info.plist"; sourceTree = "<group>"; };
+		7F0AE64688B72BCA9020AA44484FC2D3 /* Pods-hse-hw6-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hse-hw6-dummy.m"; sourceTree = "<group>"; };
+		823D41363B60FD7E69A6A3B9E7993066 /* MyLogger3.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MyLogger3.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8AECE559308CFB4600B8B3EEAEB0FB29 /* Pods-hse-hw6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hse-hw6.debug.xcconfig"; sourceTree = "<group>"; };
+		973ACF5BC66CA67D564D3BE74F64B420 /* MyLogger3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyLogger3.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4A37D4CFB3C1C09AA7651A269041385 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A526410B57805E2B698F8C43843537F0 /* Pods-hse-hw6-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hse-hw6-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C66D720AAEE212B13A4692BBB658410F /* MyLogger3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyLogger3.modulemap; sourceTree = "<group>"; };
+		D06098B5F37DE51363B8FE46295756E9 /* MyLogger3-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MyLogger3-Info.plist"; sourceTree = "<group>"; };
+		DC798472CDFE3647DF51E014DBF8953D /* MyLogger3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLogger3-umbrella.h"; sourceTree = "<group>"; };
+		EEBD175186394857DEABCEDCDFB80D2D /* Pods-hse-hw6-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hse-hw6-umbrella.h"; sourceTree = "<group>"; };
+		F64AFBE3CCA2562EDAF4DF14A4563CE1 /* MyLogger3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLogger3-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C44E66A39DBE42170E7C40F5EFFD8DE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC924C9F352881A9845000C8798CD60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9D7F049B98230F1375EAA6722D82C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4263CD13368C08A6146D78DA904610D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2092D38A77E1969918D060E7DD3C50ED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE15E9259FF38C95B594A93273491509 /* Pods-hse-hw6 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		30BFB556C6445494E571AACAF4FBEA8F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A4A37D4CFB3C1C09AA7651A269041385 /* LICENSE */,
+				823D41363B60FD7E69A6A3B9E7993066 /* MyLogger3.podspec */,
+				6EA19E55B34930D507A26CDA33175C50 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3F36987F34E5254F0B6E1C09C6CC8591 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				634EED9DFF5F7193D30BB0B04D57BE34 /* MyLogger3 */,
+				654666C0D1352044D939E68DFFD6642A /* Pods-hse-hw6 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A3D072B90642E4FEE2FE0FECCE2B420 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C66D720AAEE212B13A4692BBB658410F /* MyLogger3.modulemap */,
+				0FF7DC908792183D0B005C3129BD2629 /* MyLogger3-dummy.m */,
+				D06098B5F37DE51363B8FE46295756E9 /* MyLogger3-Info.plist */,
+				F64AFBE3CCA2562EDAF4DF14A4563CE1 /* MyLogger3-prefix.pch */,
+				DC798472CDFE3647DF51E014DBF8953D /* MyLogger3-umbrella.h */,
+				5F2124BC3E5078C4DDDCF12CDFA1842A /* MyLogger3.debug.xcconfig */,
+				973ACF5BC66CA67D564D3BE74F64B420 /* MyLogger3.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../hse-hw6/Pods/Target Support Files/MyLogger3";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E14B0E784C0BF3FE7762BEE90E092345 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3F36987F34E5254F0B6E1C09C6CC8591 /* Products */,
+				2092D38A77E1969918D060E7DD3C50ED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E14B0E784C0BF3FE7762BEE90E092345 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCAA2576CB830507F85CB3F49F262081 /* MyLogger3 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FCAA2576CB830507F85CB3F49F262081 /* MyLogger3 */ = {
+			isa = PBXGroup;
+			children = (
+				0D33C8FE42F140FF5406C2C29910F39E /* MyLogger3.swift */,
+				30BFB556C6445494E571AACAF4FBEA8F /* Pod */,
+				4A3D072B90642E4FEE2FE0FECCE2B420 /* Support Files */,
+			);
+			name = MyLogger3;
+			path = ../../MyLogger3;
+			sourceTree = "<group>";
+		};
+		FE15E9259FF38C95B594A93273491509 /* Pods-hse-hw6 */ = {
+			isa = PBXGroup;
+			children = (
+				21273733FDA87D66F86E386F904D8E94 /* Pods-hse-hw6.modulemap */,
+				A526410B57805E2B698F8C43843537F0 /* Pods-hse-hw6-acknowledgements.markdown */,
+				5AC22C6DD5E6A160223977D737D035F9 /* Pods-hse-hw6-acknowledgements.plist */,
+				7F0AE64688B72BCA9020AA44484FC2D3 /* Pods-hse-hw6-dummy.m */,
+				5C92BD54D21ED8BF1D0C89ADAC178D34 /* Pods-hse-hw6-frameworks.sh */,
+				7BF10890E6EC3F4E716BC1870D8007B2 /* Pods-hse-hw6-Info.plist */,
+				EEBD175186394857DEABCEDCDFB80D2D /* Pods-hse-hw6-umbrella.h */,
+				8AECE559308CFB4600B8B3EEAEB0FB29 /* Pods-hse-hw6.debug.xcconfig */,
+				705F72DD9DB7CC2DD84B52093A91D114 /* Pods-hse-hw6.release.xcconfig */,
+			);
+			name = "Pods-hse-hw6";
+			path = "Target Support Files/Pods-hse-hw6";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4C5AB8567BC2527724D61DCFF0D7A051 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D73BCE5F423BD58FB5AF06D8F5DC5DC /* MyLogger3-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C017B09C266B4EF02CF2C67A3C335F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10DE1435676971B41741F28B0AE96C1 /* Pods-hse-hw6-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		70D54F14059C0BC56E708F7F07B71CF1 /* Pods-hse-hw6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6F188354BFD9938208A5FC20276A9C3 /* Build configuration list for PBXNativeTarget "Pods-hse-hw6" */;
+			buildPhases = (
+				93C017B09C266B4EF02CF2C67A3C335F /* Headers */,
+				679516AF6F702FDBFE4DAFAF8D6CA704 /* Sources */,
+				C44E66A39DBE42170E7C40F5EFFD8DE2 /* Frameworks */,
+				23EB8A88B1D54EF7A9FC2711BE860F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B6C2FA201558D487F5FBBF87C0632FC /* PBXTargetDependency */,
+			);
+			name = "Pods-hse-hw6";
+			productName = Pods_hse_hw6;
+			productReference = 654666C0D1352044D939E68DFFD6642A /* Pods-hse-hw6 */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB313BD8DFD57FE29F3E1BCE91BDCBC9 /* MyLogger3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96367AE168BE294393C9731375EBFC74 /* Build configuration list for PBXNativeTarget "MyLogger3" */;
+			buildPhases = (
+				4C5AB8567BC2527724D61DCFF0D7A051 /* Headers */,
+				1122226821A4FA62E685991CA3F5C213 /* Sources */,
+				DE9D7F049B98230F1375EAA6722D82C8 /* Frameworks */,
+				22B66218B7961E8D58A6A0439DE6A8AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyLogger3;
+			productName = MyLogger3;
+			productReference = 634EED9DFF5F7193D30BB0B04D57BE34 /* MyLogger3 */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3F36987F34E5254F0B6E1C09C6CC8591 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB313BD8DFD57FE29F3E1BCE91BDCBC9 /* MyLogger3 */,
+				70D54F14059C0BC56E708F7F07B71CF1 /* Pods-hse-hw6 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22B66218B7961E8D58A6A0439DE6A8AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23EB8A88B1D54EF7A9FC2711BE860F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1122226821A4FA62E685991CA3F5C213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F4F827366AF3C8D220DE24E58EDB72 /* MyLogger3.swift in Sources */,
+				40635D3A01DCC63FB0D3BB6760F2CF0D /* MyLogger3-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		679516AF6F702FDBFE4DAFAF8D6CA704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE07EEF7E2112E0241B3BA9FC8E16F7 /* Pods-hse-hw6-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B6C2FA201558D487F5FBBF87C0632FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MyLogger3;
+			target = EB313BD8DFD57FE29F3E1BCE91BDCBC9 /* MyLogger3 */;
+			targetProxy = E1977353595C338591331009C5660FCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		004504BB8885E56F17D2A4860CFB44B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F2124BC3E5078C4DDDCF12CDFA1842A /* MyLogger3.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MyLogger3/MyLogger3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MyLogger3/MyLogger3-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MyLogger3/MyLogger3.modulemap";
+				PRODUCT_MODULE_NAME = MyLogger3;
+				PRODUCT_NAME = MyLogger3;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E6ADCD9797F1E581E124C7CC7841976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 705F72DD9DB7CC2DD84B52093A91D114 /* Pods-hse-hw6.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hse-hw6/Pods-hse-hw6-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hse-hw6/Pods-hse-hw6.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92CEF4BEE70CF7637CD51CF616BF7241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 973ACF5BC66CA67D564D3BE74F64B420 /* MyLogger3.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MyLogger3/MyLogger3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MyLogger3/MyLogger3-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MyLogger3/MyLogger3.modulemap";
+				PRODUCT_MODULE_NAME = MyLogger3;
+				PRODUCT_NAME = MyLogger3;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1D9686A5F00D52241DC59C9E4B297EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AECE559308CFB4600B8B3EEAEB0FB29 /* Pods-hse-hw6.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hse-hw6/Pods-hse-hw6-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hse-hw6/Pods-hse-hw6.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96367AE168BE294393C9731375EBFC74 /* Build configuration list for PBXNativeTarget "MyLogger3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004504BB8885E56F17D2A4860CFB44B8 /* Debug */,
+				92CEF4BEE70CF7637CD51CF616BF7241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6F188354BFD9938208A5FC20276A9C3 /* Build configuration list for PBXNativeTarget "Pods-hse-hw6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D9686A5F00D52241DC59C9E4B297EE /* Debug */,
+				8E6ADCD9797F1E581E124C7CC7841976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
